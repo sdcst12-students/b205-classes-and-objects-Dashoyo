@@ -24,7 +24,7 @@ class circle:
     def area(self):
         return math.pi * self.radius ** 2
 
-    def circumference(self):
+    def circumference():
         return math.pi * self.diameter 
     
     def __init__(self,r=0,d=0):
@@ -41,5 +41,7 @@ class circle:
         print("this object destroyed")
     
 
-a = circle(r=-1)
-print( a.area() )
+a = circle(r=4)
+b = circle(r=10)
+c = circle(r=3)
+print( a.circumference() )
