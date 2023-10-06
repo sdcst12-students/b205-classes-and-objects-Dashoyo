@@ -24,7 +24,7 @@ class circle:
     def area(self):
         return math.pi * self.radius ** 2
 
-    def circumference():
+    def circumference(self):
         return math.pi * self.diameter 
     
     def __init__(self,r=0,d=0):
